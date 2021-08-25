@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.ideal.report.Reporter" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.ideal.test.Comp_AgencyAPI" />
+			<class name="com.ideal.test.Comp_AgentAPI" />
+			<class name="com.ideal.test.Comp_CertificateAPI" />
+			<class name="com.ideal.test.CompilanceAPI" />
+			<class name="com.ideal.test.Comp_CitizenAPI" />
+			<class name="com.ideal.test.Comp_CorporateAPI" />
+			<class name="com.ideal.test.Comp_ReferenceAPI" />
+
+			<class name="com.ideal.test.HaciendaAPI" />
+			<class name="com.ideal.test.JusticiaAPI" />
+			<class name="com.ideal.test.EstadoAPI" />
+			<class name="com.ideal.test.CrimAPI" />
+			<class name="com.ideal.test.DtopAPI" />
+			<class name="com.ideal.test.ASGAPI" />
+			<class name="com.ideal.test.AsumeAPI" />
+			<class name="com.ideal.test.CfseAPI" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

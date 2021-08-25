@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="12.707" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\OneDrive\Documents\com.ideal.api.automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\OneDrive\Documents\com.ideal.api.automation"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Maven\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Maven\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk1.8.0_291;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Python\Scripts\;C:\Program Files\Python\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="maven.conf" value="D:\Maven\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Maven\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="D:\Maven\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Maven\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AgencySaveIdealApi" classname="com.ideal.test.Comp_AgencyAPI" time="10.012"/>
+  <testcase name="compDashBoardIdealApi" classname="com.ideal.test.Comp_AgentAPI" time="1.385">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn&apos;t match actual status code &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> doesn't match actual status code <401>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.ideal.test.Comp_AgentAPI.compDashBoardIdealApi(Comp_AgentAPI.java:44)
+]]></failure>
+    <system-out><![CDATA[08-22-2021 21:21:53 Comp_AgentAPI.java INFO  [main] base.CommonBase 35 - compDashBoardIdealApi  Api is starting
+08-22-2021 21:21:53 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 164 - Get connection for route {s}->https://dev-app-complianceservice.azurewebsites.net:443
+08-22-2021 21:21:53 DefaultClientConnectionOperator.java DEBUG [main] conn.DefaultClientConnectionOperator 176 - Connecting to dev-app-complianceservice.azurewebsites.net:443
+08-22-2021 21:21:54 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 122 - CookieSpec selected: ignoreCookies
+08-22-2021 21:21:54 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 76 - Auth cache not set in the context
+08-22-2021 21:21:54 RequestProxyAuthentication.java DEBUG [main] protocol.RequestProxyAuthentication 88 - Proxy auth state: UNCHALLENGED
+08-22-2021 21:21:54 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 684 - Attempt 1 to execute request
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 276 - Sending request: GET /api/Agent/dashboardKPI HTTP/1.1
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "GET /api/Agent/dashboardKPI HTTP/1.1[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "Accept: */*[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "Content-Length: 0[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "Host: dev-app-complianceservice.azurewebsites.net[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "Connection: Keep-Alive[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08-22-2021 21:21:54 Wire.java DEBUG [main] http.wire 72 -  >> "[\r][\n]"
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 280 - >> GET /api/Agent/dashboardKPI HTTP/1.1
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Accept: */*
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Content-Length: 0
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Host: dev-app-complianceservice.azurewebsites.net
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Connection: Keep-Alive
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)
+08-22-2021 21:21:54 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Accept-Encoding: gzip,deflate
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "Set-Cookie: ARRAffinity=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "Set-Cookie: ARRAffinitySameSite=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "Date: Sun, 22 Aug 2021 15:51:51 GMT[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "Content-Length: 0[\r][\n]"
+08-22-2021 21:21:55 Wire.java DEBUG [main] http.wire 72 -  << "[\r][\n]"
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 261 - Receiving response: HTTP/1.1 401 Unauthorized
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 264 - << HTTP/1.1 401 Unauthorized
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Server: Microsoft-IIS/10.0
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << X-Powered-By: ASP.NET
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Set-Cookie: ARRAffinity=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Set-Cookie: ARRAffinitySameSite=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Date: Sun, 22 Aug 2021 15:51:51 GMT
+08-22-2021 21:21:55 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Content-Length: 0
+08-22-2021 21:21:55 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 511 - Connection can be kept alive indefinitely
+08-22-2021 21:21:55 HttpAuthenticator.java DEBUG [main] client.DefaultHttpClient 77 - Authentication required
+08-22-2021 21:21:55 HttpAuthenticator.java DEBUG [main] client.DefaultHttpClient 107 - dev-app-complianceservice.azurewebsites.net:443 requested authentication
+08-22-2021 21:21:55 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+08-22-2021 21:21:55 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Negotiate authentication scheme not available
+08-22-2021 21:21:55 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Kerberos authentication scheme not available
+08-22-2021 21:21:55 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for NTLM authentication scheme not available
+08-22-2021 21:21:55 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Digest authentication scheme not available
+08-22-2021 21:21:55 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Basic authentication scheme not available
+
+]]></system-out>
+  </testcase>
+  <testcase name="compDashBoardSearchIdealApi" classname="com.ideal.test.Comp_AgentAPI" time="1.31">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn&apos;t match actual status code &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> doesn't match actual status code <401>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.ideal.test.Comp_AgentAPI.compDashBoardSearchIdealApi(Comp_AgentAPI.java:59)
+]]></failure>
+    <system-out><![CDATA[08-22-2021 21:21:55 Comp_AgentAPI.java INFO  [main] base.CommonBase 51 - compDashBoardSearchIdealApi  Api is starting
+08-22-2021 21:21:55 BasicClientConnectionManager.java DEBUG [main] conn.BasicClientConnectionManager 164 - Get connection for route {s}->https://dev-app-complianceservice.azurewebsites.net:443
+08-22-2021 21:21:55 DefaultClientConnectionOperator.java DEBUG [main] conn.DefaultClientConnectionOperator 176 - Connecting to dev-app-complianceservice.azurewebsites.net:443
+08-22-2021 21:21:56 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 122 - CookieSpec selected: ignoreCookies
+08-22-2021 21:21:56 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 76 - Auth cache not set in the context
+08-22-2021 21:21:56 RequestProxyAuthentication.java DEBUG [main] protocol.RequestProxyAuthentication 88 - Proxy auth state: UNCHALLENGED
+08-22-2021 21:21:56 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 684 - Attempt 1 to execute request
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 276 - Sending request: GET /api/Agent/dashboardsearch HTTP/1.1
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "GET /api/Agent/dashboardsearch HTTP/1.1[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "Accept: */*[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "Content-Length: 0[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "Host: dev-app-complianceservice.azurewebsites.net[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "Connection: Keep-Alive[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  >> "[\r][\n]"
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 280 - >> GET /api/Agent/dashboardsearch HTTP/1.1
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Accept: */*
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Content-Length: 0
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Host: dev-app-complianceservice.azurewebsites.net
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Connection: Keep-Alive
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 283 - >> Accept-Encoding: gzip,deflate
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "Set-Cookie: ARRAffinity=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "Set-Cookie: ARRAffinitySameSite=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "Date: Sun, 22 Aug 2021 15:51:53 GMT[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "Content-Length: 0[\r][\n]"
+08-22-2021 21:21:56 Wire.java DEBUG [main] http.wire 72 -  << "[\r][\n]"
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] conn.DefaultClientConnection 261 - Receiving response: HTTP/1.1 401 Unauthorized
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 264 - << HTTP/1.1 401 Unauthorized
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Server: Microsoft-IIS/10.0
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << X-Powered-By: ASP.NET
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Set-Cookie: ARRAffinity=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Set-Cookie: ARRAffinitySameSite=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Date: Sun, 22 Aug 2021 15:51:53 GMT
+08-22-2021 21:21:56 DefaultClientConnection.java DEBUG [main] http.headers 267 - << Content-Length: 0
+08-22-2021 21:21:56 DefaultRequestDirector.java DEBUG [main] client.DefaultHttpClient 511 - Connection can be kept alive indefinitely
+08-22-2021 21:21:56 HttpAuthenticator.java DEBUG [main] client.DefaultHttpClient 77 - Authentication required
+08-22-2021 21:21:56 HttpAuthenticator.java DEBUG [main] client.DefaultHttpClient 107 - dev-app-complianceservice.azurewebsites.net:443 requested authentication
+08-22-2021 21:21:56 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+08-22-2021 21:21:56 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Negotiate authentication scheme not available
+08-22-2021 21:21:56 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Kerberos authentication scheme not available
+08-22-2021 21:21:56 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for NTLM authentication scheme not available
+08-22-2021 21:21:56 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Digest authentication scheme not available
+08-22-2021 21:21:56 AuthenticationStrategyImpl.java DEBUG [main] client.TargetAuthenticationStrategy 203 - Challenge for Basic authentication scheme not available
+]]></system-out>
+  </testcase>
+</testsuite>

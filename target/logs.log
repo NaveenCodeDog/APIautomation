@@ -1,0 +1,230 @@
+2021-08-22 21:21:43,858  INFO [main] CommonBase:35 - AgencySaveIdealApi  Api is starting
+2021-08-22 21:21:49,909 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {s}->https://dev-app-complianceservice.azurewebsites.net:443
+2021-08-22 21:21:50,336 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to dev-app-complianceservice.azurewebsites.net:443
+2021-08-22 21:21:51,688 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2021-08-22 21:21:51,758 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2021-08-22 21:21:51,761 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2021-08-22 21:21:51,765 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2021-08-22 21:21:51,771 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/Agency/Save HTTP/1.1
+2021-08-22 21:21:51,773 DEBUG [main] wire:72 -  >> "POST /api/Agency/Save HTTP/1.1[\r][\n]"
+2021-08-22 21:21:51,778 DEBUG [main] wire:72 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg[\r][\n]"
+2021-08-22 21:21:51,781 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2021-08-22 21:21:51,785 DEBUG [main] wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-08-22 21:21:51,786 DEBUG [main] wire:72 -  >> "Content-Length: 459[\r][\n]"
+2021-08-22 21:21:51,789 DEBUG [main] wire:72 -  >> "Host: dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:51,791 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-08-22 21:21:51,792 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)[\r][\n]"
+2021-08-22 21:21:51,801 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-08-22 21:21:51,804 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2021-08-22 21:21:51,805 DEBUG [main] headers:280 - >> POST /api/Agency/Save HTTP/1.1
+2021-08-22 21:21:51,859 DEBUG [main] headers:283 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg
+2021-08-22 21:21:51,865 DEBUG [main] headers:283 - >> Accept: */*
+2021-08-22 21:21:51,870 DEBUG [main] headers:283 - >> Content-Type: application/json; charset=UTF-8
+2021-08-22 21:21:51,872 DEBUG [main] headers:283 - >> Content-Length: 459
+2021-08-22 21:21:51,880 DEBUG [main] headers:283 - >> Host: dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:51,882 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2021-08-22 21:21:51,885 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)
+2021-08-22 21:21:51,894 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2021-08-22 21:21:51,905 DEBUG [main] wire:86 -  >> "{"request":{"FEIN":"660962981","EmployerName":"Code Dog Technology Group LLC","sendCertificate":true,"employerName":"Code Dog Technology Group LLC","fein":"660962981"},"response":{"Success":true,"Message":"Success","InCompliance":true,"PaymentPlan":"null","CertificationPDFBytes":"b010e903-5d5d-4391-8b2e-e7d05fd8e2b2","message":"Success","success":true,"certificationPDFBytes":"b010e903-5d5d-4391-8b2e-e7d05fd8e2b2","inCompliance":true,"paymentPlan":"null"}}"
+2021-08-22 21:21:52,191 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-08-22 21:21:52,206 DEBUG [main] wire:72 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-08-22 21:21:52,207 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-08-22 21:21:52,209 DEBUG [main] wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2021-08-22 21:21:52,210 DEBUG [main] wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2021-08-22 21:21:52,211 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2021-08-22 21:21:52,214 DEBUG [main] wire:72 -  << "Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1[\r][\n]"
+2021-08-22 21:21:52,216 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2021-08-22 21:21:52,219 DEBUG [main] wire:72 -  << "Set-Cookie: ARRAffinity=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:52,220 DEBUG [main] wire:72 -  << "Set-Cookie: ARRAffinitySameSite=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:52,222 DEBUG [main] wire:72 -  << "Date: Sun, 22 Aug 2021 15:51:48 GMT[\r][\n]"
+2021-08-22 21:21:52,223 DEBUG [main] wire:72 -  << "[\r][\n]"
+2021-08-22 21:21:52,226 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2021-08-22 21:21:52,227 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2021-08-22 21:21:52,228 DEBUG [main] headers:267 - << Transfer-Encoding: chunked
+2021-08-22 21:21:52,236 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2021-08-22 21:21:52,237 DEBUG [main] headers:267 - << Content-Encoding: gzip
+2021-08-22 21:21:52,238 DEBUG [main] headers:267 - << Vary: Accept-Encoding
+2021-08-22 21:21:52,239 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2021-08-22 21:21:52,259 DEBUG [main] headers:267 - << Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1
+2021-08-22 21:21:52,261 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2021-08-22 21:21:52,266 DEBUG [main] headers:267 - << Set-Cookie: ARRAffinity=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:52,269 DEBUG [main] headers:267 - << Set-Cookie: ARRAffinitySameSite=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:52,270 DEBUG [main] headers:267 - << Date: Sun, 22 Aug 2021 15:51:48 GMT
+2021-08-22 21:21:52,298 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2021-08-22 21:21:52,493 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-08-22 21:21:52,496 DEBUG [main] wire:72 -  << "ae[\r][\n]"
+2021-08-22 21:21:52,499 DEBUG [main] wire:86 -  << "[0x1f]"
+2021-08-22 21:21:52,501 DEBUG [main] wire:86 -  << "[0x8b]"
+2021-08-22 21:21:52,502 DEBUG [main] wire:86 -  << "[0x8]"
+2021-08-22 21:21:52,503 DEBUG [main] wire:86 -  << "[0x0]"
+2021-08-22 21:21:52,504 DEBUG [main] wire:86 -  << "[0x0][0x0][0x0][0x0][0x4][0x0]"
+2021-08-22 21:21:52,505 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-08-22 21:21:53,419 DEBUG [main] wire:86 -  << "[0xed][0xbd][0x7]`[0x1c]I[0x96]%&/m[0xca]{J[0xf5]J[0xd7][0xe0]t[0xa1][0x8][0x80]`[0x13]$[0xd8][0x90]@[0x10][0xec][0xc1][0x88][0xcd][0xe6][0x92][0xec][0x1d]iG#)[0xab]*[0x81][0xca]eVe]f[0x16]@[0xcc][0xed][0x9d][0xbc][0xf7][0xde]{[0xef][0xbd][0xf7][0xde]{[0xef][0xbd][0xf7][0xba];[0x9d]N'[0xf7][0xdf][0xff]?\fd[0x1]l[0xf6][0xce]J[0xda][0xc9][0x9e]![0x80][0xaa][0xc8][0x1f]?~|[0x1f]?"~[0xf1]GM[0x9b][0xb5][0xeb][0xe6][0xa3]G[0x1f][0xe5]u][0xd5][0x1f][0x8d]>Z[0xe4]M[0x93]][0xe4][0xf4][0xc9][0x97][0x93][0x9f][0xce][0xa7]mZ[0xe7][0xe7]y[0x9d]/[0xa7]y[0xba][0xac][0xda][0xb4][0xc9][0xdb][0xb4][0xad][0xd2]l[0x99][0x16]Kz[0x17][0x1f]W[0xe7][0xf8][0xb3][0xe2][0xd6][0xe3][0x8f]~"
+2021-08-22 21:21:53,423 DEBUG [main] wire:72 -  << "[\r][\n]"
+2021-08-22 21:21:53,424 DEBUG [main] wire:72 -  << "b[\r][\n]"
+2021-08-22 21:21:53,425 DEBUG [main] wire:86 -  << "[0xc9][0xff][0x3][0x14]5[0xf9]jT[0x0][0x0][0x0]"
+2021-08-22 21:21:53,434 DEBUG [main] wire:72 -  << "[\r][\n]"
+2021-08-22 21:21:53,438 DEBUG [main] wire:72 -  << "0[\r][\n]"
+2021-08-22 21:21:53,440 DEBUG [main] wire:72 -  << "[\r][\n]"
+2021-08-22 21:21:53,442 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@32639b12
+2021-08-22 21:21:53,443 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2021-08-22 21:21:53,871  INFO [main] CommonBase:35 - compDashBoardIdealApi  Api is starting
+2021-08-22 21:21:53,947 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {s}->https://dev-app-complianceservice.azurewebsites.net:443
+2021-08-22 21:21:53,949 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to dev-app-complianceservice.azurewebsites.net:443
+2021-08-22 21:21:54,906 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2021-08-22 21:21:54,908 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2021-08-22 21:21:54,909 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2021-08-22 21:21:54,910 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2021-08-22 21:21:54,913 DEBUG [main] DefaultClientConnection:276 - Sending request: GET /api/Agent/dashboardKPI HTTP/1.1
+2021-08-22 21:21:54,913 DEBUG [main] wire:72 -  >> "GET /api/Agent/dashboardKPI HTTP/1.1[\r][\n]"
+2021-08-22 21:21:54,914 DEBUG [main] wire:72 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg[\r][\n]"
+2021-08-22 21:21:54,916 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2021-08-22 21:21:54,917 DEBUG [main] wire:72 -  >> "Content-Length: 0[\r][\n]"
+2021-08-22 21:21:54,919 DEBUG [main] wire:72 -  >> "Host: dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:54,919 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-08-22 21:21:54,920 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)[\r][\n]"
+2021-08-22 21:21:54,921 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-08-22 21:21:54,922 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2021-08-22 21:21:54,923 DEBUG [main] headers:280 - >> GET /api/Agent/dashboardKPI HTTP/1.1
+2021-08-22 21:21:54,924 DEBUG [main] headers:283 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg
+2021-08-22 21:21:54,925 DEBUG [main] headers:283 - >> Accept: */*
+2021-08-22 21:21:54,926 DEBUG [main] headers:283 - >> Content-Length: 0
+2021-08-22 21:21:54,928 DEBUG [main] headers:283 - >> Host: dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:54,930 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2021-08-22 21:21:54,931 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)
+2021-08-22 21:21:54,931 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2021-08-22 21:21:55,164 DEBUG [main] wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2021-08-22 21:21:55,165 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2021-08-22 21:21:55,166 DEBUG [main] wire:72 -  << "WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"[\r][\n]"
+2021-08-22 21:21:55,167 DEBUG [main] wire:72 -  << "Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1[\r][\n]"
+2021-08-22 21:21:55,168 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2021-08-22 21:21:55,169 DEBUG [main] wire:72 -  << "Set-Cookie: ARRAffinity=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:55,170 DEBUG [main] wire:72 -  << "Set-Cookie: ARRAffinitySameSite=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:55,171 DEBUG [main] wire:72 -  << "Date: Sun, 22 Aug 2021 15:51:51 GMT[\r][\n]"
+2021-08-22 21:21:55,172 DEBUG [main] wire:72 -  << "Content-Length: 0[\r][\n]"
+2021-08-22 21:21:55,173 DEBUG [main] wire:72 -  << "[\r][\n]"
+2021-08-22 21:21:55,174 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2021-08-22 21:21:55,174 DEBUG [main] headers:264 - << HTTP/1.1 401 Unauthorized
+2021-08-22 21:21:55,175 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2021-08-22 21:21:55,178 DEBUG [main] headers:267 - << WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"
+2021-08-22 21:21:55,179 DEBUG [main] headers:267 - << Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1
+2021-08-22 21:21:55,180 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2021-08-22 21:21:55,181 DEBUG [main] headers:267 - << Set-Cookie: ARRAffinity=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:55,182 DEBUG [main] headers:267 - << Set-Cookie: ARRAffinitySameSite=f6b4fec0604c16763ebfccba74e828177673a976db926256849aa53435e8eb77;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:55,183 DEBUG [main] headers:267 - << Date: Sun, 22 Aug 2021 15:51:51 GMT
+2021-08-22 21:21:55,184 DEBUG [main] headers:267 - << Content-Length: 0
+2021-08-22 21:21:55,185 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2021-08-22 21:21:55,186 DEBUG [main] DefaultHttpClient:77 - Authentication required
+2021-08-22 21:21:55,186 DEBUG [main] DefaultHttpClient:107 - dev-app-complianceservice.azurewebsites.net:443 requested authentication
+2021-08-22 21:21:55,188 DEBUG [main] TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2021-08-22 21:21:55,188 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2021-08-22 21:21:55,189 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2021-08-22 21:21:55,190 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2021-08-22 21:21:55,192 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2021-08-22 21:21:55,195 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Basic authentication scheme not available
+2021-08-22 21:21:55,256  INFO [main] CommonBase:51 - compDashBoardSearchIdealApi  Api is starting
+2021-08-22 21:21:55,302 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {s}->https://dev-app-complianceservice.azurewebsites.net:443
+2021-08-22 21:21:55,303 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to dev-app-complianceservice.azurewebsites.net:443
+2021-08-22 21:21:56,266 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2021-08-22 21:21:56,266 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2021-08-22 21:21:56,267 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2021-08-22 21:21:56,268 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2021-08-22 21:21:56,269 DEBUG [main] DefaultClientConnection:276 - Sending request: GET /api/Agent/dashboardsearch HTTP/1.1
+2021-08-22 21:21:56,269 DEBUG [main] wire:72 -  >> "GET /api/Agent/dashboardsearch HTTP/1.1[\r][\n]"
+2021-08-22 21:21:56,271 DEBUG [main] wire:72 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg[\r][\n]"
+2021-08-22 21:21:56,271 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2021-08-22 21:21:56,272 DEBUG [main] wire:72 -  >> "Content-Length: 0[\r][\n]"
+2021-08-22 21:21:56,273 DEBUG [main] wire:72 -  >> "Host: dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:56,273 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-08-22 21:21:56,274 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)[\r][\n]"
+2021-08-22 21:21:56,275 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-08-22 21:21:56,277 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2021-08-22 21:21:56,278 DEBUG [main] headers:280 - >> GET /api/Agent/dashboardsearch HTTP/1.1
+2021-08-22 21:21:56,279 DEBUG [main] headers:283 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IndWX1VQSVpyLWtucHBWOFFXdXR3WFE1bm1CZElBMTY4YjQxZ1ZYY0N2UE0ifQ.eyJpc3MiOiJodHRwczovL3ByaXRzaWRlYWxkZXYuYjJjbG9naW4uY29tLzQ4NDI0NzA4LTVlMGEtNDZiMy1iZWRiLTE3NmNkZTg5ODJmZC92Mi4wLyIsImV4cCI6MTYyODY4OTk5MiwibmJmIjoxNjI4Njg2MzkyLCJhdWQiOiI2MWY2ZWY5Mi05NDE3LTQzYjktYmMyYi1jMTAxMjVhYjQ4ZTciLCJzdWIiOiI0Yjk0MGRmNS1hMDI5LTQ5ZjEtYTUwNC02NmI1MTc1M2Y5ZDAiLCJlbWFpbCI6Im5hdmVlbi5rdW1hckBjb2RlZG9nLnNvbHV0aW9ucyIsIm5hbWUiOiJOYXZlZW4gS3VtYXIiLCJnaXZlbl9uYW1lIjoiTmF2ZWVuIiwiZmFtaWx5X25hbWUiOiJLdW1hciIsImRlcGFydG1lbnQiOiJBVCIsImpvYlRpdGxlIjoiQ1NJIiwiZXh0ZW5zaW9uX0FnZW5jeSI6IkFUIiwiZXh0ZW5zaW9uX1JvbGUiOiJDU0kiLCJ0aWQiOiI0ODQyNDcwOC01ZTBhLTQ2YjMtYmVkYi0xNzZjZGU4OTgyZmQiLCJub25jZSI6ImM5M2NjNWJmLTk4OWYtNDZiMy1iMjI0LTJmOTlhMjU4NTM1MSIsInNjcCI6ImFjY2Vzc19hc191c2VyIiwiYXpwIjoiOWU2MTkwMzAtMTE1Yy00OTcwLTgxNTQtZTVlMmM3ZGJlZGQzIiwidmVyIjoiMS4wIiwiaWF0IjoxNjI4Njg2MzkyfQ.mOpWUJEINU0HWuGx7DMjHnGOq7VAsx-k2N8zN1C4HG5BkHpTXuATHHi4KANHTvJj4pztwzfkvJRlTD76ZSc1cu9VoluVHIqqgySCzgzzm_et2SiqhVgT9aagDmtV5jPrmMLQbV4rnjl8yh-Uxo0edHM6rZKKMmVxEtfjy_3Tq9Jom3P2d_ArYwM1MAz6kOZQftiVjwAOhWsB_DharRIViAOHfhQPuQh43F3I991NgnXvicb50A7WXj3bJold41HTWFfklx0kxJp6YwQOH4o2P52uWtiX9dXmlJHIGYDmI-rruhnk8oC2aprf3y2W2mU5SPaMTGj5CF4FndxXHBQdfg
+2021-08-22 21:21:56,280 DEBUG [main] headers:283 - >> Accept: */*
+2021-08-22 21:21:56,281 DEBUG [main] headers:283 - >> Content-Length: 0
+2021-08-22 21:21:56,282 DEBUG [main] headers:283 - >> Host: dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:56,282 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2021-08-22 21:21:56,283 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_291)
+2021-08-22 21:21:56,284 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2021-08-22 21:21:56,529 DEBUG [main] wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2021-08-22 21:21:56,530 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2021-08-22 21:21:56,531 DEBUG [main] wire:72 -  << "WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"[\r][\n]"
+2021-08-22 21:21:56,532 DEBUG [main] wire:72 -  << "Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1[\r][\n]"
+2021-08-22 21:21:56,533 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2021-08-22 21:21:56,533 DEBUG [main] wire:72 -  << "Set-Cookie: ARRAffinity=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:56,534 DEBUG [main] wire:72 -  << "Set-Cookie: ARRAffinitySameSite=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net[\r][\n]"
+2021-08-22 21:21:56,535 DEBUG [main] wire:72 -  << "Date: Sun, 22 Aug 2021 15:51:53 GMT[\r][\n]"
+2021-08-22 21:21:56,535 DEBUG [main] wire:72 -  << "Content-Length: 0[\r][\n]"
+2021-08-22 21:21:56,536 DEBUG [main] wire:72 -  << "[\r][\n]"
+2021-08-22 21:21:56,536 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2021-08-22 21:21:56,537 DEBUG [main] headers:264 - << HTTP/1.1 401 Unauthorized
+2021-08-22 21:21:56,538 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2021-08-22 21:21:56,538 DEBUG [main] headers:267 - << WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '08/11/2021 13:53:12'"
+2021-08-22 21:21:56,539 DEBUG [main] headers:267 - << Request-Context: appId=cid-v1:2485bc80-d36b-482e-a1d4-0bffb6c85cf1
+2021-08-22 21:21:56,539 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2021-08-22 21:21:56,540 DEBUG [main] headers:267 - << Set-Cookie: ARRAffinity=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:56,541 DEBUG [main] headers:267 - << Set-Cookie: ARRAffinitySameSite=bd40cb4406af7e019459240c4b3391e3ad50b18834d5536b66832ba63d6a7358;Path=/;HttpOnly;SameSite=None;Secure;Domain=dev-app-complianceservice.azurewebsites.net
+2021-08-22 21:21:56,543 DEBUG [main] headers:267 - << Date: Sun, 22 Aug 2021 15:51:53 GMT
+2021-08-22 21:21:56,545 DEBUG [main] headers:267 - << Content-Length: 0
+2021-08-22 21:21:56,546 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2021-08-22 21:21:56,546 DEBUG [main] DefaultHttpClient:77 - Authentication required
+2021-08-22 21:21:56,547 DEBUG [main] DefaultHttpClient:107 - dev-app-complianceservice.azurewebsites.net:443 requested authentication
+2021-08-22 21:21:56,548 DEBUG [main] TargetAuthenticationStrategy:174 - Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
+2021-08-22 21:21:56,548 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Negotiate authentication scheme not available
+2021-08-22 21:21:56,549 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Kerberos authentication scheme not available
+2021-08-22 21:21:56,550 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for NTLM authentication scheme not available
+2021-08-22 21:21:56,550 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Digest authentication scheme not available
+2021-08-22 21:21:56,551 DEBUG [main] TargetAuthenticationStrategy:203 - Challenge for Basic authentication scheme not available
+2021-08-22 21:21:56,708 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:56,711 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en_IN.ftl"): Not found
+2021-08-22 21:21:56,714 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2021-08-22 21:21:56,716 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2021-08-22 21:21:56,717 DEBUG [main] cache:45 - Loading template for "index.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2021-08-22 21:21:57,303 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,304 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en_IN.ftl"): Not found
+2021-08-22 21:21:57,305 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2021-08-22 21:21:57,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2021-08-22 21:21:57,312 DEBUG [main] cache:45 - Loading template for "head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2021-08-22 21:21:57,327 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en_IN.ftl"): Not found
+2021-08-22 21:21:57,330 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2021-08-22 21:21:57,332 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2021-08-22 21:21:57,334 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2021-08-22 21:21:57,350 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,355 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en_IN.ftl"): Not found
+2021-08-22 21:21:57,358 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2021-08-22 21:21:57,365 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2021-08-22 21:21:57,366 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2021-08-22 21:21:57,482 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,483 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en_IN.ftl"): Not found
+2021-08-22 21:21:57,484 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2021-08-22 21:21:57,485 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2021-08-22 21:21:57,485 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2021-08-22 21:21:57,509 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,512 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en_IN.ftl"): Not found
+2021-08-22 21:21:57,515 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2021-08-22 21:21:57,516 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2021-08-22 21:21:57,517 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2021-08-22 21:21:57,567 DEBUG [main] cache:45 - "test-view/standard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-08-22 21:21:57,569 DEBUG [main] cache:45 - "test-view/standard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-08-22 21:21:57,571 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,574 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en_IN.ftl"): Not found
+2021-08-22 21:21:57,636 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2021-08-22 21:21:57,638 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2021-08-22 21:21:57,650 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2021-08-22 21:21:57,669 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,670 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en_IN.ftl"): Not found
+2021-08-22 21:21:57,671 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2021-08-22 21:21:57,676 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2021-08-22 21:21:57,677 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2021-08-22 21:21:57,684 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,685 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en_IN.ftl"): Not found
+2021-08-22 21:21:57,686 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2021-08-22 21:21:57,687 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2021-08-22 21:21:57,688 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2021-08-22 21:21:57,722 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-22 21:21:57,732 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en_IN.ftl"): Not found
+2021-08-22 21:21:57,733 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2021-08-22 21:21:57,734 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2021-08-22 21:21:57,735 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/aventstack/extentreports/3.0.2/extentreports-3.0.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-22T21:08:50 IST" name="Default suite" finished-at="2021-08-22T21:08:54 IST" duration-ms="4382">
+    <groups>
+    </groups>
+    <test started-at="2021-08-22T21:08:50 IST" name="Default test" finished-at="2021-08-22T21:08:54 IST" duration-ms="4382">
+      <class name="com.ideal.test.HaciendaAPI">
+        <test-method signature="haciendaComplianceIdealApiInvalidID()[pri:0, instance:com.ideal.test.HaciendaAPI@19e4653c]" started-at="2021-08-22T21:08:50 IST" name="haciendaComplianceIdealApiInvalidID" finished-at="2021-08-22T21:08:54 IST" duration-ms="4335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haciendaComplianceIdealApiInvalidID -->
+      </class> <!-- com.ideal.test.HaciendaAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
